@@ -14,10 +14,8 @@ ip=`hostname -I | sed -e 's/\./_/g' | sed -e 's/ //g'`
 FNAME="cam_${ip}_`date +%Y%m%d_%H%M%S`.jpg"
 F="${DIR}/${FNAME}"
 
-#EXE="fswebcam -S ${FRAME_SKIP} -r ${PIC_SIZE} ${F}"
 fswebcam -S ${FRAME_SKIP} -r ${PIC_SIZE} ${F}
 
 # Update link to the most recent pic
 rm ${LASTPIC}
 ln -s ${F} ${LASTPIC}
-
