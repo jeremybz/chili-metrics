@@ -51,6 +51,7 @@ curl localhost:9090/
 
 4. Humidity Exporter
 ```
+chmod 755 humidity.py
 sudo cp humidity_exporter.service /etc/systemd/system/
 sudo systemctl enable humidity_exporter.service 
 sudo systemctl start humidity_exporter
@@ -59,6 +60,7 @@ curl localhost:9817
 
 5. Webcam
 ```
+chmod 755 take_picture.sh
 sudo apt install fswebcam
 crontab -e
 * * * * * /home/pi/take_picture.sh 2>&1 >> /dev/null
