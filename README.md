@@ -18,9 +18,8 @@ This is a quick-and-dirty toy project meant to run on a secured home network.
 * USB webcam
 
 ## Hardware Setup
-Connect the humidity sensor to the raspberry pi 
-* [3-pin](https://www.circuitbasics.com/wp-content/uploads/2015/12/How-to-Setup-the-DHT11-on-the-Raspberry-Pi-Three-pin-DHT11-Wiring-Diagram.png)
-* [4-pin](https://tutorials-raspberrypi.de/wp-content/uploads/2015/08/luftfeuchtigkeit_DHT11_Steckplatine.png)
+1. Connect the USB webcam to the raspberry pi 
+2. Connect the humidity sensor to the raspberry pi ([3-pin](https://www.circuitbasics.com/wp-content/uploads/2015/12/How-to-Setup-the-DHT11-on-the-Raspberry-Pi-Three-pin-DHT11-Wiring-Diagram.png))([4-pin](https://tutorials-raspberrypi.de/wp-content/uploads/2015/08/luftfeuchtigkeit_DHT11_Steckplatine.png))
 
 ## Installation
 
