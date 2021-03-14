@@ -77,8 +77,9 @@ sudo systemctl start python_http_server
 
 7. Grafana Setup
    1. Log into grafana (raspberry pi's ip:3000) with admin/admin.  Change the password.
-   2. Left panel -> Gearbox -> Data Sources -> Add Data Source -> Prometheus -> http://192.168.1.108:9090/ -> Save & Test
+   2. Left panel -> Gearbox -> Data Sources -> Add Data Source -> Prometheus -> http://RPI_IP_ADDRESS:9090/ -> Save & Test
    3. Left panel -> + sign -> Import -> Upload JSON file -> Chili_Metrics.json
+   4. Live Cam -> edit -> Panel -> Display -> Image URL: Change 192.168.1.116 to RPI_IP_ADDRESS -> Save
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
