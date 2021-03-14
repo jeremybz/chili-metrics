@@ -6,7 +6,7 @@ Very simple planter monitoring
 This is a quick-and-dirty toy project meant to run on a secured home network.
 
 ## Screenshot
-![dashboard screenshot](images/dashboard.jpg "Dashboard")
+![dashboard screenshot](dashboard.jpg "Dashboard")
 
 ## Hardware
 * [Raspberry pi](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)
