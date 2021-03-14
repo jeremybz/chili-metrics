@@ -1,0 +1,12 @@
+[Unit]
+Description=python_http_server
+After=network-online.target
+
+[Service]
+User=pi
+Restart=on-failure
+
+ExecStart=/usr/bin/python3 -m http.server 8080 --directory /home/pi/pics
+
+[Install]
+WantedBy=multi-user.target
